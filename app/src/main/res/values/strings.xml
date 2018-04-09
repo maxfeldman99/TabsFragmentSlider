@@ -2,7 +2,7 @@
     <string name="app_name">TabsFragmentSlider</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Tab1Text">Tab 1</string>
-    <string name="Tab2Text">Tab 2</string>
-    <string name="Tab3Text">Tab 3</string>
+    <string name="Tab1Text">Profile</string>
+    <string name="Tab2Text">Search</string>
+    <string name="Tab3Text">Add</string>
 </resources>

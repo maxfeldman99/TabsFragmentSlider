@@ -14,9 +14,10 @@ public class MainActivity extends AppCompatActivity implements Tab1.OnFragmentIn
         setContentView(R.layout.activity_main);
 
         TabLayout tabLayout = findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Profile"));
-        tabLayout.addTab(tabLayout.newTab().setText("Search"));
-        tabLayout.addTab(tabLayout.newTab().setText("Add"));
+        tabLayout.addTab(tabLayout.newTab().setText("Profile").setIcon(R.drawable.ic_person));
+
+        tabLayout.addTab(tabLayout.newTab().setText("Search").setIcon(R.drawable.ic_search));
+        tabLayout.addTab(tabLayout.newTab().setText("Add").setIcon(R.drawable.ic_add));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager)findViewById(R.id.pager);
